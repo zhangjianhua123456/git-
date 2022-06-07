@@ -1,0 +1,333 @@
+.main{
+    margin-left: 220px;
+    /* width: 980px; */
+    height: 470px;
+    margin-top: 10px;
+}
+.focus{
+    float: left;
+    width: 721px;
+    height: 455px;
+    position: relative;
+    overflow: hidden;
+}
+.focus ul{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 600%;
+}
+.focus ul li{
+    float: left;
+}
+.arrow_l::after{
+    content: '\ea44';
+}
+.arrow_l{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.arrow_r{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.arrow_r::after{
+    content: '\ea42';
+}
+ .arrow_l,
+.arrow_r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+.arrow_l:hover{
+    color: #c81623;
+}
+.arrow_r:hover{
+    color: #c81623;
+}
+
+.arrow_r {
+    right: 0;
+} 
+.circle{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    /*background-color: #fff;*/
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+.current {
+    background-color: #fff;
+}
+.newsflash{
+    float: right;
+    width: 250px;
+    height: 455px;
+    border: 1px solid #e4e4e4;
+    
+}
+.newsflash_top{
+    height: 34px;
+    line-height: 34px;
+    padding: 0 15px;
+    border-bottom: 1px dashed #e4e4e4;
+}
+.newsflash .newsflash_top a{
+    display: block;
+    float: right;
+}
+.newsflash .newsflash_top a:hover{
+    color: #c81623;
+}
+.newsflash .newsflash_top a::after{
+    content: '\e920';
+    font-family: 'icomoon';
+}
+.newsflash .newsflash_centre{
+    height: 124px;
+    font-size: 16px;
+    color:#666666;
+    border-bottom: 1px solid #e4e4e4;
+}
+.newsflash .newsflash_centre li{
+    display: block;
+    width: 220px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 8px 0;
+}
+.lifeService{
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+.lifeService ul{
+    width: 252px;
+}
+.lifeService ul li{
+    width: 63px;
+    height: 71px;
+    border-bottom:1px solid #e4e4e4;
+    border-right:1px solid #e4e4e4;
+    float: left;
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+}
+.lifeService ul li i{
+    display: inline-block;
+    width: 24px;
+    height: 31px;
+    margin-top: 13px; 
+    background: url(../images/icons.png) no-repeat;
+}
+.lifeService .pr_0 {
+    background-position: -16px -15px;
+}
+.lifeService .pr_1{
+    background-position:-78px -15px;
+}
+.lifeService .pr_2{
+    background-position:-140px -15px;
+}
+.lifeService .pr_3{
+    background-position:-205px -15px;
+}
+.lifeService .pr_4{
+    background-position:-16px -87px;
+}
+.lifeService .pr_5{
+    background-position:-78px -87px;
+}
+.lifeService .pr_6{
+    background-position:-140px -87px;
+}
+.lifeService .pr_7{
+    background-position:-205px -87px;
+}
+.lifeService .pr_8{
+    background-position:-16px -158px;
+}
+.lifeService .pr_9{
+    background-position:-78px -158px;
+}
+.lifeService .pr_10{
+    background-position:-140px -154px;
+}
+.lifeService .pr_11{
+    background-position:-205px -158px;
+}
+.bargain{
+    height: 74px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.recommended{
+    height: 163px;
+    background-color: #ddd;
+}
+.recommended_1{
+    float: left;
+    width: 206px;
+    height: 163px;
+    padding-top: 31px;
+    padding-left: 68px;
+    background-color: #5c5251;
+}
+.recommended ul{
+    width: 1300px;
+}
+.recommended ul li{
+    display: block;
+    width: 236px;
+    height: 142px;
+    float: left;
+    margin-right: 13px;
+    position: relative;
+}
+.recommended ul li:nth-child(-n+3):after{
+    content: '';
+    position:absolute;
+    right:0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+.guess_like{
+    height: 293px;
+}
+.guess_like .trade{
+    height: 60px;
+    background-color: #fff;
+
+}
+.trade span{
+    float: left;
+    margin-top: 32px;
+    font-size: 18px;
+}
+.trade div{
+    float: right;
+    margin-top: 32px;
+}
+.trade div i{
+    margin-left: 2px;
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    background: url(../images/icons.png) no-repeat -420px -109px;
+}
+.goods{
+    height: 233px;
+    border: 1px solid #e4e4e4;
+    overflow: hidden;
+}
+.goods ul{
+    width: 1300px;
+}
+.goods ul li{
+    float: left;
+    margin-top: 10px;
+}
+.goods ul li div{
+    width: 201px;
+    height: 40px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+}
+.goods ul li div p{
+    font-size: 18px;
+    color: #c81623;
+    margin-top: 5px;
+    margin-left: -105px;
+}
+.box_hd{
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    font-size: 12px;
+}
+.box_hd h3{
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.tab_list{
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li{
+    float: left;
+}
+.tab_list ul span{
+    margin: 0 10px;
+    font-size: 10px;
+}
+.floor .w{
+    margin-top: 30px;
+}
+.box_bd{
+    overflow: hidden;
+    height: 361px;
+}
+.tab_list_item>div{
+    float: left;
+    height: 361px;
+}
+.col_210{
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210 ul{
+    padding-left: 12px;
+}
+.col_210 ul li{
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    line-height: 34px;
+    float: left;
+    margin-left: 10px;
+}
+.col_329{
+    width: 329px;
+}
+.col_221{
+    width: 221px;
+}
+.col_219{
+    width: 219px;
+}
+.bb {
+    /* 一般情况下，a如果包含有宽度的盒子，a需要转为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+    
+

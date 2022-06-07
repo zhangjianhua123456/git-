@@ -1,0 +1,47 @@
+.header{
+    position: relative;
+}
+.sk{
+    position: relative;
+    border-left: 1px solid #b1191a;
+    padding:3px 0 0 14px;
+    top: 40px;
+    left: 190px;
+}
+.nav_list ul li{
+    float: left;
+    margin:0 29px;
+}
+.nav_list ul li a{
+    font-weight: bold;
+    color: #000;
+}
+.navitems_1 ul li {
+    float: left;
+}
+.navitems_1 ul li a{
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+.navitems_1 .dd a::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin-left: 2px;
+}
+.goods ul li{
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 290px;
+    height: 460px;
+    border:1px solid transparent;
+}
+.goods ul li :nth-child(4n){
+    margin-right: 0;
+}
+.goods ul li:hover{
+    border:1px solid #c81523;
+}
